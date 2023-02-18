@@ -1,0 +1,20 @@
+/* Main da página */
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.item-img {
+  width: 60%;
+}
+
+.item-desc {
+  width: 40%;
+
+  background-color: #ff773d;
+}
+
+.fatia {
+  width: 100%;
+}

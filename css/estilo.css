@@ -1,47 +1,50 @@
+/* Estilos Globais */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.topo {
-  display: flex;
-  justify-content: center;
-}
+/* Topo da Página */
 
-.logo img {
-  width: 150px;
-  height: 150px;
-  margin-left: 30px;
-}
-
-.navbar {
-  background-color: #ff5e5b;
-  width: 100%;
-  height: 50px;
-}
-
-.navbar ul {
-  margin: 0;
-  padding: 0;
-  line-height: 50px;
+.header {
   display: flex;
   justify-content: space-around;
 }
 
-.navbar li {
+#logo {
+  max-width: 100%;
+  width: 60%;
+  border-radius: 80%;
+  margin: 10px 0 10px 0;
+}
+
+.navbar ul {
+  background-color: #f55536;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
   list-style: none;
-  margin: 0 10px;
+  border-bottom: 3px solid #fabc3c;
+}
+
+.navbar li {
+  margin: 1px;
 }
 
 .navbar a {
+  display: block;
   text-decoration: none;
-  color: yellow;
+  color: #fabc3c;
   font-size: 16px;
   font-weight: bold;
   padding: 16px 20px 17px;
   transition: all 0.3s;
   margin-right: 25px;
+  font-family: sans-serif;
 }
 
 .navbar a:hover {

@@ -6,6 +6,6 @@ Projeto criado como exercício do Curso FullStack SENAI.
 
 Projeto utilizando HTML5, CSS3 e JS6
 
-#ARTE E CRIAÇÃO
+# ARTE E DESENVOLVIMENTO
 
 Thiago P. Pires
