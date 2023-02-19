@@ -80,6 +80,8 @@ p {
 }
 
 #contato {
+  border-top: 3px solid #ff773d;
+  padding: 20px;
   background-color: #333;
   text-align: center;
 }
