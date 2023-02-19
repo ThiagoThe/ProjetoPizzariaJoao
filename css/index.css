@@ -1,4 +1,7 @@
 /* Main da página */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&family=Roboto+Condensed:ital,wght@1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@700&family=Roboto+Condensed:ital,wght@1,700&display=swap");
 
 .container {
   display: flex;
@@ -11,10 +14,72 @@
 
 .item-desc {
   width: 40%;
-
   background-color: #ff773d;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 .fatia {
   width: 100%;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+strong {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 22px;
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+  color: #fff;
+}
+
+.botao-pedido {
+  margin: 0 auto;
+  background-color: #ff8800;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18x;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.botao-pedido:hover {
+  background-color: #ff5500;
+}
+
+#contato {
+  background-color: #333;
+  text-align: center;
 }
