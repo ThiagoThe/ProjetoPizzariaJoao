@@ -15,6 +15,10 @@ form.addEventListener("submit", function (event) {
   // Adiciona o campo oculto ao formulário
   form.appendChild(codigoPedidoInput);
 
+  // Mostra o número do pedido ao cliente
+  numeroPedido.innerHTML = `Seu número do pedido é: ${codigoPedido}`;
+  numeroPedido.style.display = "block";
+
   // Envia o formulário
   form.submit();
 });
