@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/estilo.css" />
+    <link rel="stylesheet" href="./css/pedido.css">
     <title>Pedidos</title>
   </head>
   <body>
@@ -27,5 +28,90 @@
         </nav>
       </div>
     </header>
+    <main class="pedido">
+      <div>
+        <form action="post">
+       
+            <h3> Cadastro Rápido para a retirada do pedido </h3>
+            <label for="nome"
+              >Seu nome*: <input type="text" name="nome" id="nome"
+            required/></label>
+            <label for="tel"></label>
+              Seu número de telefone*: <input type="tel" name="tel" id="tel"
+            required/></label>
+            <br><br>
+            <span>(*) Obrigatório</span>
+            <br><br>
+          
+            <h3>Escolha a sua pizza</h3>
+            <h3>Massa</h3>
+            <label for="comum">
+              <input type="radio" name="massa" id="comum" value="comum" checked> Massa Comum
+            </label>
+            <label for="integral">
+              <input type="radio" name="massa" id="integral" value="integral"> Massa integral
+            </label>
+            <label for="temperada">
+              <input type="radio" name="massa" id="temperada" value="temperada"> Massa temperada
+            </label>
+            <h3>Sabores (Escolha até 2)</h3>
+            <label for="quatro-queijos">
+              <input type="checkbox" name="sabores[]" id="quatro-queijos" value="quatro-queijos"> Quatro-queijos
+            </label>
+            <label for="frango-catupiry">
+              <input type="checkbox" name="sabores[]" id="frango-catupiry" value="frango-catupiry"> Frango com catupiry
+            </label>
+            <label for="calabresa">
+              <input type="checkbox" name="sabores[]" id="calabresa" value="calabresa"> Calabresa
+            </label>
+            <label for="lombinho">
+              <input type="checkbox" name="sabores[]" id="lombiinho" value="lombinho"> Lombinho
+            </label>
+            <label for="file-cheddar">
+              <input type="checkbox" name="sabores[]" id="file-cheddar" value="file-cheddar"> Filé com cheddar
+            </label>
+            <label for="portuguesa">
+              <input type="checkbox" name="sabores[]" id="portuguesa" value="portuguesa"> Portuguesa
+            </label>
+            <label for="marguerita">
+              <input type="checkbox" name="sabores[]" id="marguerita" value="marguerita"> Marguerita
+            </label>
+
+            <h3>Borda</h3>
+            <label for="cheddar">
+              <input type="radio" name="borda" id="cheddar" value="cheddar"> Cheddar
+            </label>
+            <label for="catupiry">
+              <input type="radio" name="borda" id="catupiry" value="catupiry"> Catupiry
+            </label>
+            <label for="chocolate">
+              <input type="radio" name="borda" id="chocolate" value="chocolate"> Chocolate preto
+            </label>
+            <label for="semB">
+              <input type="radio" name="borda" id="semB" value="semB"> Sem borda 
+            </label>
+            <br><br>
+            <input type="submit" value="Enviar pedido">
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="contato">
+        <h4>Endereço para retirada</h4>
+        <p>
+          Rua Arrays das Dores 50 <br />
+          Bairro: Instância - Florianópolis/SC
+        </p>
+        <h4>Contato</h4>
+        <p>(48) 99999-9999</p>
+      </div>
+    </main>
+    <footer>
+      <div class="rodape">
+        <p>Desenvolvido por Thiago Pires</p>
+      </div>
+    </footer>
+    <script src="./js/pedido.js"></script>
   </body>
+
 </html>
